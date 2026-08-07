@@ -1,1 +1,50 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>회원 가입</h1>
+    <form method="get">
+        계정 입력: <input type="text" name="search" placeholder="계정 입력">
+        <input type="submit" value="제출하기">
+        <p></p>비밀번호 입력: <input type="text" name="search" placeholder="비밀번호 입력">
+        <input type="submit" value="제출하기">
+        <p>계정으로 비밀 코드가 전송되었습니다.</p>
+        <input type="text" name="search" placeholder="6자리 코드 입력">
+        <input type="submit" value="확인">
+        <hr>
+        비밀번호를 (chrome)에 저장하시겠습니까? 예 <input type="checkbox"> 아니오 <input type="checkbox">
+        <p></p>로그인 유지 <input type="checkbox">
+        <select>
+            <optgroup label="채널">
+            <option>알림설정</option>
+            <option>회원 구독</option>
+            </optgroup>
+            <optgroup label="도움">
+            <option>피드백</option>
+            <option>문재 신고</option>
+            </optgroup>
+        </select>
+    </form>
+    <form> 
+        <fieldset> 
+            <legend>입력 양식</legend> 
+            <table> 
+                <tr> 
+                    <td><label for="name">이름</label></td> 
+                    <td><input id="name" type="text"></td> 
+                </tr> 
+                <tr> 
+                    <td><label for="mail">이메일</label></td> 
+                    <td><input id="mail" type="email"></td> 
+                </tr> 
+            </table> 
+            <input type="submit"> 
+        </fieldset>
+        <textarea cols="40" rows="6">이곳의 건의사항 작성</textarea> 
+    </form>
+</body>
+</html>
